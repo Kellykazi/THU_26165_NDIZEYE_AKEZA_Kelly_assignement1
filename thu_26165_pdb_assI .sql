@@ -55,11 +55,6 @@ JOIN Courses ON Enrollments.course_id = Courses.course_id;
 -- Find records created in the past 7 days
 SELECT * FROM Students WHERE created_at >= SYSDATE - 7;
 
--- Retrieve top 5 highest values in each category (example using RANK)
-SELECT course_id, student_id, RANK() OVER (PARTITION BY course_id ORDER BY enrollment_date DESC) AS rank 
-FROM Enrollments 
-WHERE rank <= 5;
-
 -- Find entities with more than 3 related transactions
 SELECT student_id, COUNT(*) AS transaction_count 
 FROM Enrollments 
