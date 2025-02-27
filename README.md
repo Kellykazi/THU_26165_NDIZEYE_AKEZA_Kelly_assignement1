@@ -5,8 +5,8 @@ This database system is designed for managing student course enrollments in an e
 
 ### Screenshots
 
-![Screenshot](screen1.png)
-![Screenshot](screen2.png)
-![Screenshot](screen3.png)
-![Screenshot](screen4.png)
+![Screenshot](screen1.png.jpg)
+![Screenshot](screen2.png.jpg)
+![Screenshot](screen3.png.jpg)
+![Screenshot](screen4.png.jpg)
 
